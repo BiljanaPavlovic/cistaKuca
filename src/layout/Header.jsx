@@ -12,7 +12,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100 slide-img"
-            src="/img/decakUsisava.gif"
+            src="/cistaKuca/img/decakUsisava.gif"
             alt="Third slide"
           />
 
@@ -25,7 +25,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100 slide-img"
-            src="/img/kuhinja.jpg"
+            src="/cistaKuca/img/kuhinja.jpg"
             alt="Third slide"
           />
 
@@ -38,7 +38,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100 slide-img"
-            src="/img/muskaracCisti.gif"
+            src="/cistaKuca/img/muskaracCisti.gif"
             alt="Third slide"
           />
 
@@ -51,7 +51,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100 slide-img"
-            src="/img/potirePod.gif"
+            src="/cistaKuca/img/potirePod.gif"
             alt="Third slide"
           />
 
@@ -64,7 +64,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100 slide-img"
-            src="/img/usisavanje.gif"
+            src="/cistaKuca/img/usisavanje.gif"
             alt="Third slide"
           />
 
@@ -77,7 +77,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100 slide-img"
-            src="/img/zenaCisti.gif"
+            src="/cistaKuca/img/zenaCisti.gif"
             alt="Third slide"
           />
 
