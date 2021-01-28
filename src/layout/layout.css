@@ -1,0 +1,32 @@
+/** @format */
+
+h3 {
+  color: purple;
+  font-size: 80px;
+  font-weight: bold;
+  background-color: grey;
+  width: 200px;
+  margin: auto;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.header-btn {
+  margin: 100px;
+}
+.intro-p {
+  margin: 15px;
+  padding: 10px;
+  font-size: 20px;
+}
+.slide-img {
+  width: 100%;
+  height: 500px;
+}
+.content-p {
+  margin: 15px;
+  padding: 10px;
+  font-size: 20px;
+}

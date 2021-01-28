@@ -1,0 +1,9 @@
+/** @format */
+
+.check-box {
+  position: relative;
+  float: right;
+}
+.table {
+  text-align: left;
+}
