@@ -10,7 +10,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 export default function PoslovniProstor() {
   return (
-    <div>
+    <div className="dashboard">
       <h5>Ciscenje poslovnog prostora</h5>
       <Container className="table">
         <ListGroup>

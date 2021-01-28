@@ -10,7 +10,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 export default function Stan() {
   return (
-    <div>
+    <div className="dashboard">
       <h4>Ciscenje stana</h4>
       <Container className="table">
         <ListGroup>

@@ -6,7 +6,7 @@ import Form from "react-bootstrap/Form";
 
 export default function Angazman() {
   return (
-    <div>
+    <div className="dashboard">
       <h2>
         Ako želite da se prijavite za posao popunite sledeću formu i zakažite
         razgovor

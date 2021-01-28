@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function UslugePrva() {
   return (
-    <div>
+    <div className="dashboard">
       <h2>Nudimo različite vrste čišćenja proverite naš kalkulator cena</h2>
       <DropdownButton id="dropdown-basic-button" title="izaberite vrstu usluge">
         <Dropdown.Item>

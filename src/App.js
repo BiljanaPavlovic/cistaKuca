@@ -7,14 +7,19 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router basename='/cistaKuca'>
+      <div className="glass">
 
-        <Header />
-        <hr />
-        <Content />
-        <hr />
-        <Footer />
-      </Router>
+        <Router basename='/cistaKuca'>
+
+          <Header />
+          <hr />
+          <Content />
+          <hr />
+          <Footer />
+        </Router>
+      </div>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
     </div>
   );
 }

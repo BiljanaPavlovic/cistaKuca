@@ -1,32 +1,41 @@
 /** @format */
-
-h3 {
-  color: purple;
-  font-size: 80px;
-  font-weight: bold;
-  background-color: grey;
-  width: 200px;
-  margin: auto;
-}
-.logo {
-  width: 50px;
-  height: 50px;
+.dashboard {
+  margin: 8rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   position: relative;
+  float: right;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
 }
-.header-btn {
-  margin: 100px;
+.btn {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
 }
-.intro-p {
-  margin: 15px;
-  padding: 10px;
-  font-size: 20px;
+.header {
+  position: fixed;
+  margin: 3rem;
 }
-.slide-img {
-  width: 100%;
-  height: 500px;
-}
-.content-p {
-  margin: 15px;
-  padding: 10px;
-  font-size: 20px;
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
 }
