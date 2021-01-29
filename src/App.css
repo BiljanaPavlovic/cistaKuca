@@ -1,6 +1,6 @@
 /** @format */
 
-.App {
+body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
@@ -9,6 +9,7 @@
   justify-content: center;
 }
 .glass {
+  margin: auto;
   background: white;
   min-height: 80vh;
   width: 60%;
@@ -45,7 +46,7 @@
   left: 10%;
 }
 @media (max-width: 768px) {
-  .App {
+  body {
     display: grid;
     grid-template-columns: auto;
   }

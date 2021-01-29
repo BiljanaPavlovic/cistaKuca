@@ -23,7 +23,6 @@
   align-items: center;
 }
 .header {
-  position: fixed;
   margin: 3rem;
 }
 .card {
@@ -38,6 +37,11 @@
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
 }
 .lp-img {
   width: 300px;
@@ -56,4 +60,13 @@
   border-radius: 1rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .dashboard {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .one-section {
+    grid-template-columns: auto;
+  }
 }

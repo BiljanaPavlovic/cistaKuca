@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cistaKuca/static/css/main.e161b7fc.chunk.css",
-    "main.js": "/cistaKuca/static/js/main.a5a66a75.chunk.js",
-    "main.js.map": "/cistaKuca/static/js/main.a5a66a75.chunk.js.map",
+    "main.css": "/cistaKuca/static/css/main.38ac416f.chunk.css",
+    "main.js": "/cistaKuca/static/js/main.1da0a34d.chunk.js",
+    "main.js.map": "/cistaKuca/static/js/main.1da0a34d.chunk.js.map",
     "runtime-main.js": "/cistaKuca/static/js/runtime-main.6b6dd8bb.js",
     "runtime-main.js.map": "/cistaKuca/static/js/runtime-main.6b6dd8bb.js.map",
     "static/css/2.150d169a.chunk.css": "/cistaKuca/static/css/2.150d169a.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.dd219901.chunk.js.map": "/cistaKuca/static/js/3.dd219901.chunk.js.map",
     "index.html": "/cistaKuca/index.html",
     "static/css/2.150d169a.chunk.css.map": "/cistaKuca/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.e161b7fc.chunk.css.map": "/cistaKuca/static/css/main.e161b7fc.chunk.css.map",
+    "static/css/main.38ac416f.chunk.css.map": "/cistaKuca/static/css/main.38ac416f.chunk.css.map",
     "static/js/2.550c5e74.chunk.js.LICENSE.txt": "/cistaKuca/static/js/2.550c5e74.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6b6dd8bb.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.550c5e74.chunk.js",
-    "static/css/main.e161b7fc.chunk.css",
-    "static/js/main.a5a66a75.chunk.js"
+    "static/css/main.38ac416f.chunk.css",
+    "static/js/main.1da0a34d.chunk.js"
   ]
 }
