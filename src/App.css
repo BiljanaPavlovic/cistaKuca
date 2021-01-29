@@ -44,3 +44,9 @@
   bottom: 5%;
   left: 10%;
 }
+@media (max-width: 768px) {
+  .App {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

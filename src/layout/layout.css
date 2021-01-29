@@ -39,3 +39,21 @@
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
 }
+.lp-img {
+  width: 300px;
+  border-radius: 20px;
+}
+.one-section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.btn-p {
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
+}
