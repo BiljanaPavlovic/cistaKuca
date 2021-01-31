@@ -10,6 +10,10 @@ export default function Header() {
       <Link to="/">
         <img src="/cistaKuca/img/ckl.png" alt="logo" className="logo" />
         <h1> Čista kuca</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+          inventore ut quibusdam pariatur aperiam assumenda similique totam!
+        </p>
       </Link>
       <br />
     </div>
