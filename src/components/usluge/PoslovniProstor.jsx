@@ -36,11 +36,8 @@ export default function PoslovniProstor() {
       <Container>
         <Jumbotron fluid>
           <Container>
-            <h1>Fluid jumbotron</h1>
-            <p>
-              This is a modified jumbotron that occupies the entire horizontal
-              space of its parent.
-            </p>
+            <h1>Cena izabranih opcija</h1>
+            <p>Ukupna cena je: cena</p>
           </Container>
         </Jumbotron>
       </Container>

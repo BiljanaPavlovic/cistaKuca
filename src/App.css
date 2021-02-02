@@ -1,5 +1,27 @@
 /** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
 
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
 body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -12,7 +34,7 @@ body {
   margin: auto;
   background: white;
   min-height: 80vh;
-  width: 60%;
+  width: 80%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -39,14 +61,15 @@ body {
 
 .circle1 {
   top: 5%;
-  right: 15%;
+  right: 5%;
 }
 .circle2 {
-  bottom: 5%;
-  left: 10%;
+  bottom: 0%;
+  left: 5%;
 }
 @media (max-width: 768px) {
-  body {
+  .glass {
+    margin: 2px;
     display: grid;
     grid-template-columns: auto;
   }

@@ -13,47 +13,55 @@ import Angazman from "../components/cistacice/Angazman";
 export default function Content() {
   return (
     <div>
-      <div className="dashboard">
-        <div className="one-section">
-          <img
-            src="/cistaKuca/img/zenaCisti.gif"
-            className="lp-img"
-            alt="zena cist"
-          />
-          <div className="btn-p">
-            <p className="content-p">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
-              nemo blanditiis eaque rerum fugiat corrupti! Voluptatibus ducimus
-            </p>
-            <Link to="/usluge">
-              <Button variant="primary" className="btn" size="lg">
-                Usluge Čišćenja
-              </Button>{" "}
-            </Link>
-          </div>
+      <div class="content">
+        <div class="status">
+          <h1>Čista kuća</h1>
         </div>
-        <div className="dashboard">
-          <div className="one-section">
-            <div className="btn-p">
+        <div class="cards">
+          <div class="card">
+            <div class="card-info">
+              <h2>Izaberite uslugu</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                placeat.
+              </p>
+            </div>
+            <div className="btn-section">
+              <img
+                src="/cistaKuca/img/zenaCisti.gif"
+                className="lp-img"
+                alt="zena cist"
+              />
+              <Link to="/usluge">
+                <Button variant="primary" className="btn" size="lg">
+                  Usluge Čišćenja
+                </Button>{" "}
+              </Link>
+            </div>
+          </div>
+
+          <div className="card">
+            <div class="card-info">
+              <h2>Pridružite se timu</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                placeat.
+              </p>
+            </div>
+            <div className="btn-section">
               <Link to="/angazman">
                 <Button variant="secondary" className="btn" size="lg">
                   Angažman
                 </Button>
               </Link>
-              <p className="content-p">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Maiores nemo blanditiis eaque rerum fugiat corrupti!
-                Voluptatibus ducimus
-              </p>
+              <img
+                src="/cistaKuca/img/potirePod.gif"
+                className="lp-img"
+                alt="ciscenje poslovnog prostora"
+              />
             </div>
-            <img
-              src="/cistaKuca/img/potirePod.gif"
-              className="lp-img"
-              alt="ciscenje poslovnog prostora"
-            />
           </div>
         </div>
-        <hr />
       </div>
 
       <Switch>

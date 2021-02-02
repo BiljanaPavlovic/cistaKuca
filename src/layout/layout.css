@@ -1,6 +1,5 @@
 /** @format */
 .dashboard {
-  margin: 8rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -16,15 +15,75 @@
   );
   border-radius: 2rem;
 }
-.btn {
+.link {
   display: flex;
   margin: 2rem 0rem;
   padding: 1rem 5rem;
   align-items: center;
 }
-.header {
-  margin: 3rem;
+.link h2 {
+  padding: 0rem 2rem;
 }
+
+.content {
+  flex: 2;
+}
+
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  position: relative;
+}
+
+.pro img {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+}
+.pro h2 {
+  width: 40%;
+  color: white;
+  font-weight: 600;
+}
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 3rem 0rem;
+  padding: 3rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
+}
+
+.lp-img {
+  width: 200px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.status {
+  margin-bottom: 3rem;
+}
+
+.content {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .card {
   display: flex;
   background: linear-gradient(
@@ -38,35 +97,31 @@
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
 }
-.logo {
-  width: 80px;
-  height: 80px;
-  border-radius: 20%;
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.lp-img {
-  width: 300px;
-  border-radius: 20px;
-}
-.one-section {
+.btn-section {
   display: grid;
   grid-template-columns: auto auto;
-}
-.btn-p {
-  background: linear-gradient(
-    to left top,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.5)
-  );
-  border-radius: 1rem;
-  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  justify-content: space-between;
 }
 @media (max-width: 768px) {
   .dashboard {
     display: grid;
     grid-template-columns: auto;
+    position: relative;
+    right: 70px;
+    opacity: 1;
   }
-  .one-section {
+  .content {
+    padding: 5rem;
+  }
+  .card {
+    padding: 5rem;
+  }
+  .btn-section {
     grid-template-columns: auto;
   }
 }
