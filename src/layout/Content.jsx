@@ -9,6 +9,7 @@ import DodatneUsluge from "../components/usluge/DodatneUsluge";
 import Stan from "../components/usluge/Stan";
 import PoslovniProstor from "../components/usluge/PoslovniProstor";
 import Angazman from "../components/cistacice/Angazman";
+import ListaCistacica from "../components/cistacice/ListaCistacica";
 
 export default function Content() {
   return (
@@ -70,6 +71,7 @@ export default function Content() {
         <Route path="/stan" component={Stan} />
         <Route path="/poslovniProstor" component={PoslovniProstor} />
         <Route path="/angazman" component={Angazman} />
+        <Route path="/listaCistacica" component={ListaCistacica} />
       </Switch>
     </div>
   );

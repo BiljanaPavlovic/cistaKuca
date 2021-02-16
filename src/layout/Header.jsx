@@ -16,25 +16,22 @@ export default function Header() {
         </div>
         <div class="links">
           <div class="link">
-            <img src="./images/twitch.png" alt="" />
-            <h2>facebook</h2>
+            <Link to="/listaCistacica">
+              <h2>Sve naše čistačice</h2>
+            </Link>
           </div>
           <div class="link">
-            <img src="./images/steam.png" alt="" />
             <h2>insagram</h2>
           </div>
           <div class="link">
-            <img src="./images/upcoming.png" alt="" />
-            <h2>linkedin</h2>
+            <h2>facebook</h2>
           </div>
           <div class="link">
-            <img src="./images/library.png" alt="" />
             <h2>mail</h2>
           </div>
         </div>
         <div class="pro">
           <h2>Akcija meseca, snizenje</h2>
-          <img src="./images/controller.png" alt="" />
         </div>
       </div>
     </div>

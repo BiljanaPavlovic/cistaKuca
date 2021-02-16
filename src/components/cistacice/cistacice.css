@@ -1,0 +1,9 @@
+/** @format */
+
+.listaCistacica {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.profilCistacice {
+  margin: 15px;
+}
